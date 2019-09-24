@@ -1,3 +1,6 @@
+#navigation{
+    float: right;
+}
 #name-container{
     width: 100%;
     background-color: white;
@@ -18,10 +21,11 @@ h1{
     margin-bottom: 0px;
 }
 #main-content{
-    width: 1420px;
+    width: 1401px;
     background-color: gray;
     padding: 50px;
     margin-right: 10px;
+    border: 1px solid grey;
 }
 h2{
     padding-top: 0px;
