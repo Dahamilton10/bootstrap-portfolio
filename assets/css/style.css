@@ -48,11 +48,8 @@ h1{
     margin-bottom: 0px;
 }
 #main-content{
-    display: block;
-    width: 1401px;
     background-color: gray;
     padding: 50px;
-    margin-right: 10px;
     border: 1px solid grey;
 }
 h2{
