@@ -1,6 +1,33 @@
 #navigation{
     float: right;
 }
+/* I dont understnd most of this list stuff for the nav bar I just took it from the w3school */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 5%;
+    left: 80%;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid grey;
+  }
+  
+  li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li:last-child {
+    border-right: none;
+  }
 #name-container{
     width: 100%;
     background-color: white;
@@ -21,6 +48,7 @@ h1{
     margin-bottom: 0px;
 }
 #main-content{
+    display: block;
     width: 1401px;
     background-color: gray;
     padding: 50px;
@@ -42,7 +70,7 @@ h2{
 #about-me-picture{
     float: left;
     padding-right: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 #about-me-picture2{
     float: left;
