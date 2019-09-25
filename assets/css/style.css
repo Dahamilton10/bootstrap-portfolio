@@ -119,7 +119,8 @@ p{
 }
 /* I have no idea whats going on with these buttons and text inputs. I just took them off the w3school website and renamed a few things. I need to come back when we cover this stuff in class to see why it works like it does. */
 input[type="text"] {
-    width: 150px;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: block;
     margin-bottom: 10px;
     background-color: white;
@@ -127,7 +128,11 @@ input[type="text"] {
   
   input[type="button"] {
     width: 120px;
-    margin-left: 35px;
+    height: 35px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    color: white;
     display: block;
   }
 textarea {
