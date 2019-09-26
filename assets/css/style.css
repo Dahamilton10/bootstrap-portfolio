@@ -11,6 +11,7 @@ ul {
     padding: 0;
 /* This sets the padding of the list. */
     overflow: hidden;
+/* This makes it so that if content overflows then the excess is hidden from view. */
     background-color: white;
 /* This sets the background color of the list. */
     position: absolute;
@@ -105,17 +106,19 @@ h2{
     z-index: 1;
 }
 .portfolio-picture-banner{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     background-color: #4aaaa5;
     color: white;
     width: 200px;
-    margin-top: 110px;
+    margin-top: 140px;
     text-align: center;
     height: 30px;
-    z-index: 2;
+}
+h3{
+    position: absolute;
+    margin-top: 4px;
+    text-align: center;
+    font-weight: 100;
 }
 .clearfix{
     overflow: auto;
