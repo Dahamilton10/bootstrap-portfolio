@@ -184,7 +184,7 @@ textarea {
 /* This makes it so you cant change the size of textarea. */
   }
 footer{
-    border-top:10px solid #4aaaa5;
+    border-top:8px solid #4aaaa5;
     background-color: #666666;
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
