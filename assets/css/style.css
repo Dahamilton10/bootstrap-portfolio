@@ -68,7 +68,7 @@ h1{
     margin-bottom: 0px;
 }
 #main-content{
-    background-color: gray;
+    background-image: url('../images/concrete_seamless.png');
     padding: 50px;
     border: 1px solid grey;
 }
