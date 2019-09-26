@@ -119,6 +119,7 @@ h3{
     margin-top: 4px;
     text-align: center;
     font-weight: 100;
+    display: inline;
 }
 .clearfix{
     overflow: auto;
