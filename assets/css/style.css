@@ -1,5 +1,6 @@
 #navigation{
     float: right;
+    height: 20px;
 }
 /* I got this from https://www.w3schools.com/css/css_navbar.asp */
 ul {
@@ -26,8 +27,8 @@ ul {
 /* This is a configuration of the contents of the list. */
     float: left;
 /* This sets the list to float to the left, it shows up on the right side of the paage because of how the ul is configured. */
-    border-right:1px solid grey;
-/* This sets the border on the right of the list contents. */
+    border-right:1px solid rgba(128,128,128,0.3);
+/* This sets the border on the right of the list contents. the rgba color was taken from https://www.google.com/search?q=what+is+grey+in+rgb&rlz=1C1CHBF_enUS860US860&oq=what+is+grey+in+rgb&aqs=chrome..69i57j0.3976j1j7&sourceid=chrome&ie=UTF-8 and its just a value for red green blue and the alpha of the color. */
   }
   
   li a {
@@ -38,8 +39,8 @@ ul {
 /* This sets the text color. */
     text-align: center;
 /* This sets the text color. */
-    padding: 14px 16px;
-/* This sets the padding on the top and right. */
+    padding: 1px 16px;
+/* This sets the padding on the top and bottom then left and right. */
     text-decoration: none;
 /* This removes the text decorations that may be on this from other css here, like underlining or something. */
   }
