@@ -9,65 +9,32 @@
 </head>
 
 <body>
-    <div id="top-bar">
-        <div id="name-containter">
-            <h1>David Hamilton</h1>
-            <div id="navi">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a class="active" href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contacts.html">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">David Hamilton</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">index <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <div id="main-content">
-        <div id="index">
-            <h2>Portfolio</h2>
-            <div class="portfolio-picture">
-                <img id=about-me-picture src="assets/images/i.jpeg">
-                <div class="portfolio-picture-banner">
-                    <h3>wow</h3>
-                </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Fluid jumbotron</h1>
+              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
             </div>
-            <div class="portfolio-picture">
-                <img id=about-me-picture src="assets/images/dont.jpeg">
-                <div class="portfolio-picture-banner">
-                    <h3>cool</h3>
-                </div>
-            </div>
-            <div class="portfolio-picture">
-                <img id=about-me-picture src="assets/images/know.jpeg">
-                <div class="portfolio-picture-banner">
-                    <h3>superb</h3>
-                </div>
-            </div>
-            <div class="portfolio-picture">
-                <img id=about-me-picture src="assets/images/what.jpeg">
-                <div class="portfolio-picture-banner">
-                    <h3>10/10</h3>
-                </div>
-            </div>
-            <div class="portfolio-picture">
-                <img id=about-me-picture src="assets/images/to.jpeg">
-                <div class="portfolio-picture-banner">
-                    <h3>nifty</h3>
-                </div>
-            </div>
-            <div class="portfolio-picture">
-                <img id=about-me-picture src="assets/images/put.jpeg">
-                <div class="portfolio-picture-banner">
-                    <h3>eh its ok</h3>
-                </div>
-            </div>
-            <div class="portfolio-picture">
-                <img id=about-me-picture src="assets/images/here.jpeg">
-                <div class="portfolio-picture-banner">
-                    <h3>eh its ok</h3>
-                </div>
-            </div>
-        </div>
-    </div>
+          </div>
     <footer>
         copyright ©
     </footer>
